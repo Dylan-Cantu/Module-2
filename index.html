@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2</title>
+</head>
+<body>
+    <script src="app.js"></script>  
+
+    <h2>Variables Assignment</h2>
+
+    <p> I am combining different material learned in <b>module 2</b> to complete this assignment such as:</p>
+    <ul>
+        <li> Displaying 9 on the console message using var and life</li>
+        <li>Created a <b> global variable </b> (18 on console)</li>
+        <li>Created a <b> block variable </b> </li>
+        <li>Created a <b> string variable </b> </li>
+        <li>Created an <b>object variable </b> using const (my name below)</li>
+    </ul>
+        
+      <h3 id= "demo">
+            <script>
+                const person = {
+                  firstName: "Dylan",
+                  lastName: "Cantu",
+                  fullName: function() {
+                    return this.firstName + " " + this.lastName;
+                  }
+                };
+                
+                document.getElementById("demo").innerHTML = person.fullName();
+                </script>
+      </h3>
+        
+</body>
+</html>
